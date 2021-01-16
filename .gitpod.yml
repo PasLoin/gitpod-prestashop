@@ -12,9 +12,10 @@ ports:
     onOpen: ignore
 
 tasks:
-  - command: wget -q https://github.com/PrestaShop/PrestaShop/releases/download/1.7.7.0/prestashop_1.7.7.0.zip
-  - command: unzip prestashop_1.7.7.0.zip -d ./public_html
-  # WIP : unzip and lunch autoconfig 
+  - command: wget -q https://github.com/PrestaShop/PrestaShop/releases/download/1.7.7.1/prestashop_1.7.7.1.zip
+  - command: unzip prestashop_1.7.7.1.zip -d ./public_html
+  # WIP todo : lunch autoconfig
+  # WIP todo : remove zip after install
   - command: apache2ctl start # start Apache server
   
   # start MailHog (SMTP testing tool) 
