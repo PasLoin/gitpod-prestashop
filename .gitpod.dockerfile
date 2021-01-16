@@ -62,8 +62,7 @@ USER root
 ### WIP at the moment Prestashop install will be perform by task command in .gitpod.yml ###
 
 ### Adminer ###
-RUN cp $GITPOD_REPO_ROOT/conf/.htaccess $GITPOD_REPO_ROOT/conf/.htaccess \
-    && mkdir $GITPOD_REPO_ROOT/database/ \
+RUN mkdir $GITPOD_REPO_ROOT/database/ \
     && wget -q https://github.com/vrana/adminer/releases/download/v4.7.4/adminer-4.7.4-mysql.php \
         -O $GITPOD_REPO_ROOT/database/index.php \
     && mkdir $GITPOD_REPO_ROOT/phpinfo/ \
