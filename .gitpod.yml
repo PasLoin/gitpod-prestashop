@@ -16,7 +16,7 @@ tasks:
     command: unzip prestashop_1.7.7.1.zip -d ./public_html
   # WIP todo : lunch autoconfig
   # WIP todo : remove zip after install
-    command: apache2ctl start # start Apache server
+  - command: apache2ctl start # start Apache server
   
   # start MailHog (SMTP testing tool) 
   - command: mailhog -api-bind-addr 127.0.0.1:8025 -ui-bind-addr 127.0.0.1:8025 -smtp-bind-addr 127.0.0.1:1025
