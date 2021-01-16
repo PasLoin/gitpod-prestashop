@@ -5,7 +5,7 @@ FROM gitpod/workspace-mysql
 
 ### General Settings ###
 ARG DEBIAN_FRONTEND=noninteractive
-ENV PHP_VERSION="7.4"
+ENV PHP_VERSION="8"
 ENV APACHE_DOCROOT="public_html"
 
 ### Setups, Node, NPM ###
