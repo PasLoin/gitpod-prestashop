@@ -57,9 +57,11 @@ RUN go get github.com/mailhog/MailHog && \
     a2enmod php${PHP_VERSION} 
 
 ### Prestashop ###
-USER gitpod
+USER root
 
 ### WIP at the moment Prestashop install will be perform by task command in .gitpod.yml ###
 
 ### Adminer ###
-### no need at this time of dev ###
+
+
+### ###
