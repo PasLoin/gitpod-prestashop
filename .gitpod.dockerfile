@@ -11,10 +11,10 @@ ENV APACHE_DOCROOT="public_html"
 ### Setups, Node, NPM ###
 USER gitpod
 ### WIP don't think it's mandatory to clone the repo ###
-#RUN git clone https://github.com/PasLoin/gitpod-prestashop $HOME/gitpod-prestashop && \
-#    cat $HOME/gitpod-prestashop/conf/.bashrc.sh >> $HOME/.bashrc && \
-#    . $HOME/.bashrc && \
-#    bash -c ". .nvm/nvm.sh && nvm install --lts"
+RUN git clone https://github.com/PasLoin/gitpod-prestashop $HOME/gitpod-prestashop && \
+    cat $HOME/gitpod-prestashop/conf/.bashrc.sh >> $HOME/.bashrc && \
+    . $HOME/.bashrc && \
+    bash -c ". .nvm/nvm.sh && nvm install --lts"
 
 ### MailHog ###
 USER root
