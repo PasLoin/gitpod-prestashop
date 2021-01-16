@@ -1,7 +1,7 @@
-# Work in Progress - not working yet
-
-
 # Running Prestashop on gitpod
+
+Work In Progress 
+- V1.0 : Minimal configuration to install Prestashop.
 
 [Gitpod](https://www.gitpod.io) is a ready-to-code dev environment with a single click. It will allows you to develop plugin or theme directly from your browser.
 
@@ -23,6 +23,9 @@ https://gitpod.io/#https://github.com/PasLoin/gitpod-prestashop/tree/dev
 ## Install
 
 Project dependencies (in `composer.json` or `package.json`) are automatically installed.
+
+- V1.0 : You will have a 403 error when gitpod open port 8080 ; it's "normal" ; when he finished to dowload prestashop, just refresh the page and you can make the install. 
+- V1.1 : WIP install automatically
 
 ## Usage
 
