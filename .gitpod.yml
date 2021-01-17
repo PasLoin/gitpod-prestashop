@@ -13,7 +13,7 @@ ports:
 
 tasks:
   - command: wget -q https://github.com/PrestaShop/PrestaShop/releases/download/1.7.7.1/prestashop_1.7.7.1.zip
-    command: unzip prestashop_1.7.7.1.zip -d ./public_html
+    - command: unzip prestashop_1.7.7.1.zip -d ./public_html
   # WIP todo : lunch autoconfig
   # WIP todo : remove zip after install
   - command: apache2ctl start # start Apache server
