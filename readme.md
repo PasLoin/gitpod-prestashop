@@ -1,6 +1,6 @@
 # Running Prestashop on gitpod
 
-Work In Progress 
+Work In Progress NOT WORKING YET
 - V1.0 : Minimal configuration to install Prestashop.
 
 [Gitpod](https://www.gitpod.io) is a ready-to-code dev environment with a single click. It will allows you to develop plugin or theme directly from your browser.
