@@ -1,7 +1,7 @@
 # Gitpod docker image for Prestashop | https://github.com/PasLoin/gitpod-prestashop
 # License: MIT (c) 2021 By PasLoin Inspired from :  Luiz Paulo "Bills"
 # Version: 0.1
-FROM gitpod/workspace-full:latest
+FROM gitpod/workspace-mysql:latest
 
 ### General Settings ###
 ARG DEBIAN_FRONTEND=noninteractive
