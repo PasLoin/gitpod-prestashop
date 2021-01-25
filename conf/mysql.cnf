@@ -16,14 +16,14 @@ lc-messages-dir	= /usr/share/mysql
 skip-external-locking
 bind-address		= 127.0.0.1
 
-key_buffer_size		= 32M
-max_allowed_packet	= 132M
+key_buffer_size		= 64M
+max_allowed_packet	= 256M
 thread_stack		= 192K
-thread_cache_size   = 32M
+thread_cache_size   = 128M
 
 myisam-recover-options  = BACKUP
-query_cache_limit	    = 16M
-query_cache_size        = 32M
+query_cache_limit	    = 64M
+query_cache_size        = 128M
 
 general_log_file        = /var/log/mysql/mysql.log
 general_log             = 1
